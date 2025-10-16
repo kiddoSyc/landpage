@@ -1,0 +1,97 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  border-sizing: border-box;
+  font-family: Arial, sans-serif;
+  
+}
+
+.navbar {
+  background-color: #232525;
+  padding: 17px  60px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar .logo {
+  font-size: 30px;
+  color: #fff;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: bold;
+  transition: 0.3 ease;
+}
+
+
+.navbar ul li a:hover {
+  color: lavender;
+}
+
+.hero {
+  height: 100vh;
+  background-image: url('images/sunset-waterfall-view-stockcake.jpg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+  text-align: center;
+  
+}
+
+.hero h1 {
+  font-size: 53px;
+}
+
+.hero p {
+  font-size: 18px;
+  margin: 20px 0px;
+}
+
+.hero .btn {
+  display: flex;
+  padding: 12px 20px;
+  background-color: 5498ba;
+  color: #fff;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: o.3 ease;
+
+  
+  background-color: #232525;   /* main color */
+  color: white;             /* text color */
+  border: 3px none ;   /* black border */
+  padding: 10px 20px;       /* space around text */
+  border-radius: 6px;       /* rounded corners */
+  font-size: 16px;          /* text size */
+  cursor: pointer;          
+
+}
+
+
+button:hover {
+  background-color: darkblue; 
+}
+  
+
+
+
+.hero .btn:hover {
+  color: lavender;
+  background-color: #fff;
+}
